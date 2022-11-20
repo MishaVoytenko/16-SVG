@@ -1,0 +1,171 @@
+/* font-family: 'Nunito Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.header {
+  width: 1170px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.text-logo {
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  color: #16133d;
+}
+
+section {
+  height: 660px;
+  width: 1170px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.hero {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #7690a8;
+  margin-bottom: 15px;
+}
+
+.text-hero {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.2px;
+  color: #16133d;
+  margin-bottom: 40px;
+}
+
+.promo {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.promo-card {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1px solid #e5eaf4;
+  border-radius: 8px;
+  width: 370px;
+  height: 340px;
+  padding: 40px;
+}
+
+.promo-card:hover {
+  border: 1px solid #3db370;
+}
+
+.promo-card:hover svg {
+  fill: #3db370;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 21px;
+  letter-spacing: 0.2px;
+  color: #16133d;
+  margin: 30px 0;
+}
+
+.text-card {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #16133d;
+}
+
+.promo-card > a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3db370;
+  margin-top: 40px;
+}
+
+.social {
+  display: inline-flex;
+  gap: 10px;
+}
+
+.social > li {
+  width: 40px;
+  height: 40px;
+  background-color: #efeef3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+.social svg {
+  fill: #0d0d0d;
+}
+.social > li:hover svg {
+  fill: #3db270;
+}
+
+footer {
+  width: 1170px;
+  height: 193px;
+  margin: 0 auto;
+  background: #16133d;
+  padding: 40px 135px;
+}
+
+footer > .logo > .text-logo {
+  color: white;
+}
+
+.size {
+  width: 64px;
+  height: 64px;
+  border: 1px solid rgba(21, 101, 216, 0.1);
+  border-radius: 16px;
+  position: relative;
+}
+
+.green-icon {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  display: none;
+}
+
+.blue-icon {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.promo-card:hover .blue-icon {
+  display: none;
+}
+
+.promo-card:hover .green-icon {
+  display: block;
+  border-radius: 8px;
+}
