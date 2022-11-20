@@ -145,20 +145,13 @@ footer > .logo > .text-logo {
   height: 64px;
   border: 1px solid rgba(21, 101, 216, 0.1);
   border-radius: 16px;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .green-icon {
-  position: absolute;
-  top: 12px;
-  left: 12px;
   display: none;
-}
-
-.blue-icon {
-  position: absolute;
-  top: 12px;
-  left: 12px;
 }
 
 .promo-card:hover .blue-icon {
